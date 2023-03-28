@@ -1,0 +1,1 @@
+Trial finished with value: 0.6752164399648659 and parameters: {'Workers': 16, 'Batch Size': 8, 'Dropout': 0.25453413174523265}. Best is trial with value: 0.6752164399648659
