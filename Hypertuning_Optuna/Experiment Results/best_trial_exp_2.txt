@@ -1,1 +1,0 @@
-Trial finished with value: 0.7849136239275031 and parameters: {'Model': 'yolov8x.pt', 'DNN': False, 'Augment Data': False}. Best is trial with value: 0.7849136239275031

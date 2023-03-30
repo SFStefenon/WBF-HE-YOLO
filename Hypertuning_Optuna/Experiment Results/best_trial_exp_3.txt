@@ -1,1 +1,0 @@
-Trial finished with value: 0.813232970350553 and parameters: {'Optimizer': 'SGD', 'Momentum': 0.888564136351402, 'Learning Rate': 0.009699306752656539}. Best is trial with value: 0.813232970350553.
