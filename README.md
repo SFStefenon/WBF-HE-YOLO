@@ -4,7 +4,7 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
-## To perform the hypetuning of the **Optuna framework** is applied.
+### To perform the hypetuning of the **Optuna framework** is applied.
 
 There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
 
