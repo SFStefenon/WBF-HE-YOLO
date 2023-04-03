@@ -8,6 +8,8 @@ This repository presents the combination of methods for obtaining an optimized y
 
 There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
 
+If you decide to use Colab, please go ahead and try it on [here](https://colab.research.google.com/github/SFStefenon/EWT-Seq2Seq-LSTM-Attention/blob/main/EWT-Seq2Seq-LSTM-Attention.ipynb)!
+
 
 > **B)** For architecture optimization the **weighted box fusion (WBF)** is used.
 
@@ -17,7 +19,7 @@ There are two ways to compute the Optuna, the first is locally on a cluster or y
 
 **A)** 
 
-Please go ahead and try it on [Google Colab](https://colab.research.google.com/github/SFStefenon/EWT-Seq2Seq-LSTM-Attention/blob/main/EWT-Seq2Seq-LSTM-Attention.ipynb)!
+
 
 ---
 
