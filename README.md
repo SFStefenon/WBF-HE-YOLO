@@ -4,16 +4,16 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
-> 1) To perform the hypetuning of the **Optuna framework** is applied.
+> A) To perform the hypetuning of the **Optuna framework** is applied.
 
 
-> 2) For architecture optimization the **weighted box fusion (WBF)** is used.
+> B) For architecture optimization the **weighted box fusion (WBF)** is used.
 
-> 3) For interpretability the **xxx** explainable AI (XAI) is presented.
+> C) For interpretability the **xxx** explainable AI (XAI) is presented.
 
 ---
 
-1) There are two ways to compute the Optuna-YOLO, the first is locally on a cluster or your PC and the second is using Google Colab.
+A) There are two ways to compute the Optuna-YOLO, the first is locally on a cluster or your PC and the second is using Google Colab.
 
 
 Please go ahead and try it on [Google Colab](https://colab.research.google.com/github/SFStefenon/EWT-Seq2Seq-LSTM-Attention/blob/main/EWT-Seq2Seq-LSTM-Attention.ipynb)!
