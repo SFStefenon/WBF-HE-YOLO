@@ -4,7 +4,10 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
-## **A)** To perform the hypetuning of the **Optuna framework** is applied.
+## To perform the hypetuning of the **Optuna framework** is applied.
+
+There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
+
 
 > **B)** For architecture optimization the **weighted box fusion (WBF)** is used.
 
@@ -12,8 +15,7 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
-**A)** There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
-
+**A)** 
 
 Please go ahead and try it on [Google Colab](https://colab.research.google.com/github/SFStefenon/EWT-Seq2Seq-LSTM-Attention/blob/main/EWT-Seq2Seq-LSTM-Attention.ipynb)!
 
