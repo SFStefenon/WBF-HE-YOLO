@@ -12,17 +12,13 @@ If you decide to use Colab, please go ahead and try it on [here](https://github.
 
 OBS: Since the analysis is using a deep learning based model, depending on your dataset a high processing time will be required for the model to perform the defined epochs.
 
+---
 
-
-> **B)** For architecture optimization the **weighted box fusion (WBF)** is used.
-
-> **C)** For interpretability the **xxx** explainable AI (XAI) is presented.
+### For architecture optimization the **weighted box fusion (WBF)** is used.
 
 ---
 
-**A)** 
-
-
+### For interpretability the **xxx** explainable AI (XAI) is presented.
 
 ---
 
