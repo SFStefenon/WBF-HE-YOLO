@@ -12,6 +12,8 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
+There are two way to compute the Optuna-YOLO, the first is locally on a cluster or your PC and the second is using Google Colab.
+
 Please go ahead and try it on [Google Colab](https://colab.research.google.com/github/SFStefenon/EWT-Seq2Seq-LSTM-Attention/blob/main/EWT-Seq2Seq-LSTM-Attention.ipynb)!
 
 ---
