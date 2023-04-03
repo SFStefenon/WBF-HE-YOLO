@@ -13,7 +13,7 @@ There are two ways to compute the Optuna, the first is locally on a cluster or y
 > If you want to use a local machine, you can follow this Python-based [algorithm](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Cluster_Computing/yolov8_insulator_exp1.py). Using a Cluster the study is gonna be saved and you can evaluate latter using [Colab](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Cluster_Computing/Experiment_Results/Optuna_Results.ipynb).
 
 
-OBS: Since the analysis is using a deep learning based model, depending on your dataset a high processing time will be required for the model to perform the defined epochs.
+OBS: Since the analysis is using a deep learning based model, depending on your dataset a high processing time will be required for the model to perform the defined epochs. The file that calls the dataset must be in the same main folder of the model.
 
 ---
 
