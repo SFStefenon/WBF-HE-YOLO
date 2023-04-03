@@ -8,9 +8,10 @@ This repository presents the combination of methods for obtaining an optimized y
 
 There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
 
-If you decide to use Colab, please go ahead and try it on [here](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Google_Colab_Computing/YOLOv8_Optuna.ipynb)!
+> If you decide to use Colab, please go ahead and try it on [here](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Google_Colab_Computing/YOLOv8_Optuna.ipynb)!
 
-If you want to use a local machine, you can follow this Python-based algorithm.
+> If you want to use a local machine, you can follow this Python-based [algorithm](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Cluster_Computing/yolov8_insulator_exp1.py).
+
 
 OBS: Since the analysis is using a deep learning based model, depending on your dataset a high processing time will be required for the model to perform the defined epochs.
 
