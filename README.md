@@ -4,7 +4,7 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
-> **A)** To perform the hypetuning of the **Optuna framework** is applied.
+## **A)** To perform the hypetuning of the **Optuna framework** is applied.
 
 > **B)** For architecture optimization the **weighted box fusion (WBF)** is used.
 
