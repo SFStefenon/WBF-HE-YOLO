@@ -148,7 +148,7 @@ After you download the algorithm you can run the `labelImg.py`
 In the `data/predefined_classes.txt` you can define the classes that you are going to use. 
 This will allocate the spaces in the memory, therefore the number in the annotation will follow this order.
 
-Later on, the classes that you have used have to match with `mydata.yaml`, that you previously created.
+Later on, the classes that you have used have to match with `mydata.yaml`, that you previously created as this example:
 
 ```
 nc: 4 
