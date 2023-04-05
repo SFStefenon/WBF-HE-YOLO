@@ -48,16 +48,11 @@ conda create --name yolo-env python=3.9
 # Activate the environment to install packges
 conda activate yolo-env
 
-# Download the requirements for YOLOv5
-wget https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
- 
 # Install the requirements
 pip install -r requirements.txt
 
 # If something goes wrong and you need to remove the environmen
 conda env remove -n yolo-env
-
-
 ```
 
 
