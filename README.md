@@ -50,7 +50,7 @@ conda activate yolo-env
 
 # Download the requirements for YOLOv5
 wget https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
-
+ 
 # Install the requirements
 pip install -r requirements.txt
 
