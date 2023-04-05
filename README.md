@@ -33,6 +33,11 @@ The model presented in this repository was evaluated using the dataset realeased
 
 ### Compute YOLO in your machine
 
+The first step is to donwload the YOLO from the [Ultralytics](https://github.com/ultralytics/ultralytics) repository.
+
+
+
+
 The first step to compute YOLO in your PC or in a cluster is to create the environment:
 
 ```
