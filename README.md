@@ -64,8 +64,86 @@ The third step is to organize your dataset.
 # Example of how to upload your dataset in the Cluster
 scp -r C:/Users/user_name/Desktop/dataset/ cluster:/home/user_name/dataset/
 ```
+There are tree ways to organize your personalized dataset.
+The first way is using a different path for training and validation (works for YOLOv5 and YOLOv7).
 
+### Organize Your Dataset
 
+There are tree ways to organize your personalized dataset.
+
+The first way is using a different path for training and validation (works for YOLOv5 and YOLOv7).
+```    
+dataset/train/images
+dataset/train/labels
+dataset/valid/images
+dataset/valid/labels
+```
+
+The second way is using a different path for training and validation (works specially for YOLOv6).
+```    
+dataset/images/train
+dataset/images/val
+dataset/labels/train
+dataset/labels/val
+```
+
+The third way is to place everything in the same place and call it by a `.txt` file (works only for YOLOv5).
+```
+dataset/train.txt
+dataset/valid.txt
+```
+
+**I highly recommend that you use the second way, as it's going to be easier to change what you are using for training and testing.**
+
+In the `train.txt` you will have the path of all your pictures, one by one like:
+```
+diclub:/home/sfrizzostefenon/dataset/RFI_640_110c10_0.jpg
+```
+
+When you have decided how to organize your data, you will need to change how the model loads it.
+
+This is going to be in the file that you use to call the script that loads your data.
+
+In the `train.py` there is (where you define how the data will be loaded):
+```
+parser.add_argument('--data', type=str, default=ROOT / 'data/mydata.yaml', help='dataset.yaml path') 
+```
+
+This file is going to be in the data folder inside the YOLO model.
+
+Depending on how you decided to organize the data the `mydata.yaml` will look like this:
+```
+path: ../dataset
+train: train/images
+val: valid/images
+```
+or
+```
+path: ../dataset
+train: train.txt
+val: val.txt
+```
+
+**If you use this structure the model will load the labels automatically based on their names.**
+
+OBS: Here the test is optional because it will be performed after training.
+```
+# test images (optional)
+```
+
+# Create a Custom Dataset
+
+To create a custom dataset with the goal of object detection it is necessary to use an image labeling algorithm or software.
+
+I recommend to use the [labelImg](https://github.com/heartexlabs/labelImg), it's based on Python, so it's light and easy to use.
+LabelImg is a graphical image annotation tool written in Python.
+
+After you download the algorithm you can run the `labelImg.py`
+
+In the `data/predefined_classes.txt` you can define the classes that you are going to use. 
+This will allocate the spaces in the memory, therefore the number in the annotation will follow this order.
+
+Later on, the classes that you have created have to match with `mydata.yaml`, [like this](https://gitlab.fbk.eu/dsip/dsip_dlresearch/rfi_acc/-/blob/main/Algorithms/YOLO/Setup%20for%20the%20Cluster/rfi_my.yaml), for the [RFI pallet](https://gitlab.fbk.eu/dsip/dsip_dlresearch/rfi_acc/-/blob/main/Extra%20Information/Componenti_RFI.xlsx) components.
 
 
 ---
