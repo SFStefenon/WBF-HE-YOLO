@@ -55,7 +55,7 @@ conda env remove -n yolo-env
 The third step is to organize your dataset.
 
 ```
-# Example of how to upload your dataset in the Cluster
+# Example of how to upload your dataset in a Cluster
 scp -r C:/Users/user_name/Desktop/dataset/ cluster:/home/user_name/dataset/
 ```
 There are tree ways to organize your personalized dataset.
