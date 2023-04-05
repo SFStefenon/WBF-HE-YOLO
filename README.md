@@ -90,13 +90,7 @@ train: ../dataset/train/images
 val: ../dataset/train/valid/images
 ```
 
-**If you use this structure the model will load the labels automatically based on their names.**
-
-OBS: Here the test is optional because it will be performed after training.
-```
-# test images (optional)
-```
-
+The model will load the labels automatically based on their names.
 
 ---
 
