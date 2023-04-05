@@ -61,9 +61,9 @@ scp -r C:/Users/user_name/Desktop/dataset/ cluster:/home/user_name/dataset/
 
 ### Organize Your Dataset
 
-There are tree ways to organize your personalized dataset.
+Depending on the version of YOLO you will need to organize your data differently.
 
-The first way is using a different path for training and validation (works for YOLOv5, YOLOv7, and YOLOv8).
+For YOLOv5, YOLOv7, and YOLOv8.
 ```    
 dataset/train/images
 dataset/train/labels
@@ -71,7 +71,7 @@ dataset/valid/images
 dataset/valid/labels
 ```
 
-The second way is using a different path for training and validation (works specially for YOLOv6).
+Works specially for YOLOv6.
 ```    
 dataset/images/train
 dataset/images/val
@@ -79,27 +79,8 @@ dataset/labels/train
 dataset/labels/val
 ```
 
-The third way is to place everything in the same place and call it by a `.txt` file (works only for YOLOv5).
-```
-dataset/train.txt
-dataset/valid.txt
-```
-
-**I highly recommend that you use the second way, as it's going to be easier to change what you are using for training and testing.**
-
-In the `train.txt` you will have the path of all your pictures, one by one like:
-```
-diclub:/home/sfrizzostefenon/dataset/RFI_640_110c10_0.jpg
-```
-
-When you have decided how to organize your data, you will need to change how the model loads it.
-
-This is going to be in the file that you use to call the script that loads your data.
-
-In the `train.py` there is (where you define how the data will be loaded):
-```
-parser.add_argument('--data', type=str, default=ROOT / 'data/mydata.yaml', help='dataset.yaml path') 
-```
+When you have organized your data, you will need to set the model to load it.
+Here you can call the 'data/mydata.yaml'
 
 This file is going to be in the data folder inside the YOLO model.
 
@@ -108,12 +89,6 @@ Depending on how you decided to organize the data the `mydata.yaml` will look li
 path: ../dataset
 train: train/images
 val: valid/images
-```
-or
-```
-path: ../dataset
-train: train.txt
-val: val.txt
 ```
 
 **If you use this structure the model will load the labels automatically based on their names.**
