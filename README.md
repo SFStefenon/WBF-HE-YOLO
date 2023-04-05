@@ -128,13 +128,15 @@ OBS: Here the test is optional because it will be performed after training.
 
 ---
 
+### Used Dataset
+
 The model presented in this repository was evaluated using the dataset realeased by Dexter Lewis and Pratik Kulkarni, which can be found at [competition-insulator-defect-detection](https://dx.doi.org/10.21227/vkdw-x769) (accessed on March 25, 2023).
 
 **We encourage you to perform comparative analyzes with your dataset!**
 
 ---
 
-### Create a Custom Dataset
+### Create Your Custom Dataset
 
 To create a custom dataset with the goal of object detection it is necessary to use an image labeling algorithm or software.
 
