@@ -31,10 +31,10 @@ The model presented in this repository was evaluated using the dataset realeased
 
 ---
 
-### Compute YOLO in your machine
+### Compute YOLOv8 in your machine
 
-The first step is to donwload the YOLO from the [Ultralytics](https://github.com/ultralytics/ultralytics) repository.
-
+The first step is to download the YOLOv8. I recommend doing that from the official developer [Ultralytics](https://github.com/ultralytics/ultralytics) repository.
+This version is based on PyTorch, beeing available for your machine or Google Colab.
 
 
 
