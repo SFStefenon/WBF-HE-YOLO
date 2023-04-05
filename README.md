@@ -151,7 +151,7 @@ val: val.txt
 test: # test images (optional)
 
 ```
-nc: 4
+nc: 4 
 names: ['broken_shell', 'flashover_damage', 'good_insulator', 'insulator_string']
 ```
 
