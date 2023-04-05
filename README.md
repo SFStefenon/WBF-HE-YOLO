@@ -58,7 +58,7 @@ pip install -r requirements.txt
 conda env remove -n yolo-env
 ```
 
-The third step is to upload your dataset and organize it.
+The third step is to organize your dataset.
 
 ```
 # Example of how to upload your dataset in the Cluster
