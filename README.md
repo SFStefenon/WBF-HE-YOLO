@@ -132,6 +132,8 @@ The model presented in this repository was evaluated using the dataset realeased
 
 **We encourage you to perform comparative analyzes with your dataset!**
 
+---
+
 ### Create a Custom Dataset
 
 To create a custom dataset with the goal of object detection it is necessary to use an image labeling algorithm or software.
@@ -144,11 +146,7 @@ After you download the algorithm you can run the `labelImg.py`
 In the `data/predefined_classes.txt` you can define the classes that you are going to use. 
 This will allocate the spaces in the memory, therefore the number in the annotation will follow this order.
 
-Later on, the classes that you have created have to match with `mydata.yaml`, like this:
-path: ../datasets/rfi_my
-train: train.txt
-val: val.txt
-test: # test images (optional)
+Later on, the classes that you have used have to match with `mydata.yaml`, that you previously created.
 
 ```
 nc: 4 
@@ -156,7 +154,6 @@ names: ['broken_shell', 'flashover_damage', 'good_insulator', 'insulator_string'
 ```
 
 ---
-
 
 Wrote by Dr. **Stefano Frizzo Stefenon** and Dr. **Laio Oriel Seman**.
 
