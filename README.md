@@ -131,7 +131,7 @@ OBS: Here the test is optional because it will be performed after training.
 # test images (optional)
 ```
 
-# Create a Custom Dataset
+### Create a Custom Dataset
 
 To create a custom dataset with the goal of object detection it is necessary to use an image labeling algorithm or software.
 
@@ -143,7 +143,16 @@ After you download the algorithm you can run the `labelImg.py`
 In the `data/predefined_classes.txt` you can define the classes that you are going to use. 
 This will allocate the spaces in the memory, therefore the number in the annotation will follow this order.
 
-Later on, the classes that you have created have to match with `mydata.yaml`, [like this](https://gitlab.fbk.eu/dsip/dsip_dlresearch/rfi_acc/-/blob/main/Algorithms/YOLO/Setup%20for%20the%20Cluster/rfi_my.yaml), for the [RFI pallet](https://gitlab.fbk.eu/dsip/dsip_dlresearch/rfi_acc/-/blob/main/Extra%20Information/Componenti_RFI.xlsx) components.
+Later on, the classes that you have created have to match with `mydata.yaml`, like this:
+path: ../datasets/rfi_my
+train: train.txt
+val: val.txt
+test: # test images (optional)
+
+nc: 57
+#nc: 1
+names: ['C00', 'C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C09', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16', 'C17', 'C18', 'C19', 'C20', 'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C28', 'C29', 'C30', 'C31', 'C32', 'C33', 'C34', 'C35', 'C36', 'C37', 'C38', 'C39', 'C40', 'C41', 'C42', 'C43', 'C44', 'C45', 'C46', 'C47', 'C48', 'C49', 'C50', 'C51', 'C52', 'C53', 'C54', 'C55', 'C56']
+#names: ['C00']
 
 
 ---
