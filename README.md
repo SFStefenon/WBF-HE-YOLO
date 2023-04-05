@@ -31,7 +31,35 @@ The model presented in this repository was evaluated using the dataset realeased
 
 ---
 
-Compute YOLO
+### Compute YOLO in your PC
+
+The first step to compute YOLO in your PC or in a cluster is to create the environment:
+
+'
+# Enter in the folder of your project
+cd ~~~ 
+
+# Check the environments available
+conda env list
+
+# Create a new environment
+conda create --name yolo-env python=3.9
+
+# Activate the environment to install packges
+conda activate yolo-env
+
+# Download the requirements for YOLOv5
+wget https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
+
+# Install the requirements
+pip install -r requirements.txt
+
+# If something goes wrong and you need to remove the environmen
+conda env remove -n yolo-env
+
+
+'
+
 
 
 ---
