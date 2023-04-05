@@ -36,9 +36,7 @@ The model presented in this repository was evaluated using the dataset realeased
 The first step is to download the YOLOv8. I recommend doing that from the official developer [Ultralytics](https://github.com/ultralytics/ultralytics).
 This version is based on PyTorch, being available for your machine or Google Colab.
 
-
-
-The first step to compute YOLO in your PC or in a cluster is to create the environment:
+The second step to compute YOLO in your machine is to create the environment:
 
 ```
 # Enter in the folder of your project
@@ -59,6 +57,14 @@ pip install -r requirements.txt
 # If something goes wrong and you need to remove the environmen
 conda env remove -n yolo-env
 ```
+
+The third step is to upload your dataset and organize it.
+
+```
+# Example of how to upload your dataset in the Cluster
+scp -r C:/Users/user_name/Desktop/dataset/ cluster:/home/user_name/dataset/
+```
+
 
 
 
