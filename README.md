@@ -35,7 +35,7 @@ The model presented in this repository was evaluated using the dataset realeased
 
 The first step to compute YOLO in your PC or in a cluster is to create the environment:
 
-'
+```
 # Enter in the folder of your project
 cd ~~~ 
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 conda env remove -n yolo-env
 
 
-'
+```
 
 
 
