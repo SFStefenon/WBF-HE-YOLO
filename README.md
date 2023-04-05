@@ -58,14 +58,12 @@ The third step is to organize your dataset.
 # Example of how to upload your dataset in a Cluster
 scp -r C:/Users/user_name/Desktop/dataset/ cluster:/home/user_name/dataset/
 ```
-There are tree ways to organize your personalized dataset.
-The first way is using a different path for training and validation (works for YOLOv5 and YOLOv7).
 
 ### Organize Your Dataset
 
 There are tree ways to organize your personalized dataset.
 
-The first way is using a different path for training and validation (works for YOLOv5 and YOLOv7).
+The first way is using a different path for training and validation (works for YOLOv5, YOLOv7, and YOLOv8).
 ```    
 dataset/train/images
 dataset/train/labels
