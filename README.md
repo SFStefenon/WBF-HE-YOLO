@@ -25,12 +25,6 @@ OBS: Since the analysis is using a deep learning based model, depending on your 
 
 ---
 
-The model presented in this repository was evaluated using the dataset realeased by Dexter Lewis and Pratik Kulkarni, which can be found at [competition-insulator-defect-detection](https://dx.doi.org/10.21227/vkdw-x769) (accessed on March 25, 2023).
-
-**We encourage you to perform comparative analyzes with your dataset!**
-
----
-
 ## Compute YOLOv8 in your machine
 
 The first step is to download the YOLOv8. I recommend doing that from the official developer [Ultralytics](https://github.com/ultralytics/ultralytics).
@@ -131,6 +125,13 @@ OBS: Here the test is optional because it will be performed after training.
 # test images (optional)
 ```
 
+
+---
+
+The model presented in this repository was evaluated using the dataset realeased by Dexter Lewis and Pratik Kulkarni, which can be found at [competition-insulator-defect-detection](https://dx.doi.org/10.21227/vkdw-x769) (accessed on March 25, 2023).
+
+**We encourage you to perform comparative analyzes with your dataset!**
+
 ### Create a Custom Dataset
 
 To create a custom dataset with the goal of object detection it is necessary to use an image labeling algorithm or software.
@@ -149,11 +150,12 @@ train: train.txt
 val: val.txt
 test: # test images (optional)
 
+```
 nc: 57
 #nc: 1
 names: ['C00', 'C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C09', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16', 'C17', 'C18', 'C19', 'C20', 'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C28', 'C29', 'C30', 'C31', 'C32', 'C33', 'C34', 'C35', 'C36', 'C37', 'C38', 'C39', 'C40', 'C41', 'C42', 'C43', 'C44', 'C45', 'C46', 'C47', 'C48', 'C49', 'C50', 'C51', 'C52', 'C53', 'C54', 'C55', 'C56']
 #names: ['C00']
-
+```
 
 ---
 
