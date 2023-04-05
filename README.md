@@ -4,7 +4,7 @@ This repository presents the combination of methods for obtaining an optimized y
 
 ---
 
-### To perform the hypetuning of YOLO the **Optuna framework** is applied.
+## To perform the hypetuning of YOLO the **Optuna framework** is applied.
 
 There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
 
@@ -17,11 +17,11 @@ OBS: Since the analysis is using a deep learning based model, depending on your 
 
 ---
 
-### For architecture optimization the **weighted box fusion (WBF)** is used.
+## For architecture optimization the **weighted box fusion (WBF)** is used.
 
 ---
 
-### For interpretability the **xxx** explainable AI (XAI) is presented.
+## For interpretability the **xxx** explainable AI (XAI) is presented.
 
 ---
 
@@ -31,7 +31,7 @@ The model presented in this repository was evaluated using the dataset realeased
 
 ---
 
-### Compute YOLOv8 in your machine
+## Compute YOLOv8 in your machine
 
 The first step is to download the YOLOv8. I recommend doing that from the official developer [Ultralytics](https://github.com/ultralytics/ultralytics).
 This version is based on PyTorch, being available for your machine or Google Colab.
