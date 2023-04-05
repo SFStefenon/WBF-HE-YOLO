@@ -31,6 +31,11 @@ The model presented in this repository was evaluated using the dataset realeased
 
 ---
 
+Compute YOLO
+
+
+---
+
 
 Wrote by Dr. **Stefano Frizzo Stefenon** and Dr. **Laio Oriel Seman**.
 
