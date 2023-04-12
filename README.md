@@ -123,6 +123,6 @@ names: ['broken_shell', 'flashover_damage', 'good_insulator', 'insulator_string'
 
 ---
 
-Wrote by Dr. **Stefano Frizzo Stefenon** and Dr. **Laio Oriel Seman**.
+Dr. **Stefano Frizzo Stefenon**.
 
 Trento, Italy, March 10, 2023.
