@@ -21,7 +21,7 @@ OBS: Since the analysis is using a deep learning based model, depending on your 
 
 ---
 
-## For interpretability the **xxx** explainable AI (XAI) is presented.
+## For interpretability the **EigenCam** explainable AI (XAI) is presented.
 
 ---
 
