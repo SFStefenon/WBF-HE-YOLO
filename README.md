@@ -129,4 +129,4 @@ names: ['broken_shell', 'flashover_damage', 'good_insulator', 'insulator_string'
 
 Dr. **Stefano Frizzo Stefenon**.
 
-Trento, Italy, March 10, 2023.
+Trento, Italy, April 10, 2023.
