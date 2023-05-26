@@ -126,6 +126,7 @@ names: ['broken_shell', 'flashover_damage', 'good_insulator', 'insulator_string'
 ```
 
 ---
+Thank you.
 
 Dr. **Stefano Frizzo Stefenon**.
 
