@@ -1,6 +1,6 @@
 # Weighted Boxes Fusion Hypertuned Explainable YOLOv8
 
-This repository presents the combination of methods for obtaining an optimized you only look once (YOLO) model.
+This repository presents a combination of methods for obtaining an explainable optimized you only look once (YOLO) model.
 
 ---
 
