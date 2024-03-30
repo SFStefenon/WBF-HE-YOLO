@@ -6,7 +6,7 @@ This repository presents a combination of methods for obtaining an explainable o
 
 ## To perform the hypetuning of YOLO the **Optuna framework** is applied.
 
-There are two ways to compute the Optuna, the first is locally on a cluster or on your PC and the second is using Google Colab.
+There are two ways to compute the Optuna, the first is locally on your machine (cluster or PC) and the second is using Google Colab.
 
 > If you want to use a local machine, you can follow this Python-based [algorithm](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Cluster_Computing/yolov8_insulator_exp1.py). Using a Cluster the study is gonna be saved and you can evaluate latter using [Colab](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Cluster_Computing/Experiment_Results/Optuna_Results.ipynb).
 
