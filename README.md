@@ -18,11 +18,11 @@ OBS: Since the analysis is using a deep learning-based model, depending on your 
 
 ## For architecture optimization the **weighted box fusion (WBF)** is used.
 
-To apply the WBF you will need to train the model several times and save the weights. After that the WFB ensemble the YOLOs to have a better prediction. You can find the algorithm [here](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Weighted_Box_Fusion/WBF_yolo.ipynb).
+To apply the WBF you will need to train the model several times and save the weights. After that the WFB ensemble the YOLO's outputs to have a better prediction. You can find the algorithm [here](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Weighted_Box_Fusion/WBF_yolo.ipynb).
 
 ---
 
-## For interpretability the **EigenCam** explainable AI (XAI) is presented.
+## For interpretability the **EigenCam** explainable AI (XAI) is applied.
 
 Examples of the results of the method can be found [here](https://github.com/SFStefenon/WBF-HE-YOLO/tree/main/EigenCam).
 
@@ -31,9 +31,9 @@ Examples of the results of the method can be found [here](https://github.com/SFS
 ## Compute YOLOv8 in your machine
 
 The first step is to download the YOLOv8. I recommend doing that from the official developer [Ultralytics](https://github.com/ultralytics/ultralytics).
-This version is based on PyTorch, being available for your machine or Google Colab.
+This version is based on PyTorch, and it is available for your machine or Google Colab.
 
-The second step to compute YOLO in your machine is to create the environment:
+The second step to compute YOLO in your machine is to create the environment. Follows the example of how to do it:
 
 ```
 # Enter in the folder of your project
