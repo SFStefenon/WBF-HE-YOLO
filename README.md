@@ -45,13 +45,13 @@ conda env list
 # Create a new environment
 conda create --name yolo-env python=3.9
 
-# Activate the environment to install packges
+# Activate the environment to install packages
 conda activate yolo-env
 
 # Install the requirements
 pip install -r requirements.txt
 
-# If something goes wrong and you need to remove the environmen
+# If something goes wrong and you need to remove the environment
 conda env remove -n yolo-env
 ```
 
@@ -74,7 +74,7 @@ dataset/valid/images
 dataset/valid/labels
 ```
 
-Works specially for YOLOv6.
+Works especially for YOLOv6.
 ```    
 dataset/images/train
 dataset/images/val
@@ -85,9 +85,9 @@ dataset/labels/val
 When you have organized your data, you will need to set the model to load it.
 Here you can call the 'data/mydata.yaml'
 
-This file is going to be in the data folder inside the YOLO model.
+This file is going to be in the `data` folder inside the YOLO model.
 
-Depending on how you decided to organize the data the `mydata.yaml` will look like this:
+Depending on how you decided to organize the data, the `mydata.yaml` may look like this:
 ```
 train: ../dataset/train/images
 val: ../dataset/train/valid/images
@@ -99,17 +99,17 @@ The model will load the labels automatically based on their names.
 
 ### Used Database
 
-The model presented in this repository was evaluated using the dataset realeased by Dexter Lewis and Pratik Kulkarni, which can be found at [competition-insulator-defect-detection](https://dx.doi.org/10.21227/vkdw-x769) (accessed on March 25, 2023).
+The model presented in this repository was evaluated using the dataset released by Dexter Lewis and Pratik Kulkarni, which can be found at [competition-insulator-defect-detection](https://dx.doi.org/10.21227/vkdw-x769) (accessed on March 25, 2023).
 
-**We encourage you to perform comparative analyzes with your dataset!**
+**We encourage you to perform comparative analyses with your dataset!**
 
 ---
 
 ### Create Your Custom Dataset
 
-To create a custom dataset with the goal of object detection it is necessary to use an image labeling algorithm or software.
+To create a custom dataset with the goal of object detection it is necessary to use an image labeling software.
 
-I recommend to use the [labelImg](https://github.com/heartexlabs/labelImg), it's based on Python, so it's light and easy to use.
+I recommend using the [labelImg](https://github.com/heartexlabs/labelImg), it's based on Python, so it's light and easy to use.
 LabelImg is a graphical image annotation tool written in Python.
 
 After you download the algorithm you can run the `labelImg.py`
@@ -117,7 +117,7 @@ After you download the algorithm you can run the `labelImg.py`
 In the `data/predefined_classes.txt` you can define the classes that you are going to use. 
 This will allocate the spaces in the memory, therefore the number in the annotation will follow this order.
 
-Later on, the classes that you have used have to match with `mydata.yaml`, that you previously created as this example:
+Later on, the classes that you have used have to match with `mydata.yaml`, which you previously created as this example:
 
 ```
 nc: 4 
