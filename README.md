@@ -6,7 +6,7 @@ This repository presents a combination of methods for obtaining an explainable o
 
 ## To perform the hypetuning of YOLO the **Optuna framework** is applied.
 
-There are two ways to compute the Optuna, the first is locally on a cluster or your PC and the second is using Google Colab.
+There are two ways to compute the Optuna, the first is locally on a cluster or on your PC and the second is using Google Colab.
 
 > If you decide to use Colab, please go ahead and try it on using this [notebook](https://github.com/SFStefenon/WBF-HE-YOLO/blob/main/Hypertuning_Optuna/Google_Colab_Computing/YOLOv8_Optuna.ipynb)! You will be asked to confirm your access to the drive where the data will be saved.
 
