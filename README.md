@@ -90,7 +90,7 @@ This file is going to be in the `data` folder inside the YOLO model.
 Depending on how you decided to organize the data, the `mydata.yaml` may look like this:
 ```
 train: ../dataset/train/images
-val: ../dataset/train/valid/images
+val: ../dataset/valid/images
 ```
 
 The model will load the labels automatically based on their names.
