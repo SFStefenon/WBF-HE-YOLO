@@ -4,7 +4,7 @@ This repository presents a combination of methods for obtaining an explainable o
 
 ---
 
-## To perform the hypetuning of YOLO the **Optuna framework** is applied.
+## To perform the hypertuning of YOLO the **Optuna framework** is applied.
 
 There are two ways to compute the Optuna, the first is locally on your machine (cluster or PC) and the second is using Google Colab.
 
